@@ -1,1 +1,1 @@
-/* i=:id /index.html/:id 200
+/* /index.html?i=:splat 200
