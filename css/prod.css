@@ -101,7 +101,7 @@ h1 {
     display: inline-block;
     font-size: 1em;
     border-radius: 10px;
-    padding: .33em 1em .33em 1em;
+    padding: .33em .5em .33em .5em;
     color: #484846;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -191,26 +191,33 @@ form {
 }
 @media(min-width:525px) and (min-height:640px) {
     .title {
-    font-size: 180%}
-.subtitle {
-    font-size: 60%}
-.header {
-    height: 3.5em;
+	    font-size: 180%
+	}
+	.subtitle {
+	    font-size: 60%
+	}
+	.header {
+	    height: 3.5em
+	    ;
+	}
+	.headerMain {
+	    padding-top: 4px;
+	}
+	.listTitle {
+	    margin-top: .6em;
+	}
+	.topButtons {
+	    font-size: 120%
+	}
+	.topButtons button {
+	    height: 2.45em;		    
+    	padding: .33em 1em .33em 1em;
+	}
+	.titleBox {
+	    font-size: 180%
+	}
 }
-.headerMain {
-    padding-top: 4px;
-}
-.listTitle {
-    margin-top: .6em;
-}
-.topButtons {
-    font-size: 120%}
-.topButtons button {
-    height: 2.45em;
-}
-.titleBox {
-    font-size: 180%}
-}.spinner {
+.spinner {
     text-align: center;
     padding: 40px;
     color: #e3d89c;
